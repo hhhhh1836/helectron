@@ -1,0 +1,25 @@
+#left-area, #middle-area, #right-area {
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	text-align: center;
+}
+#left-area, #right-area {
+	background: #23272A;
+}
+#left-area {
+	left: 0%;
+	right: 80%;
+}
+#middle-area {
+	left: 20%;
+	right: 20%;
+	overflow-y: hidden;
+}
+#right-area {
+	padding: 25px;
+	left: 80%;
+	right: 0%;
+}

@@ -1,0 +1,21 @@
+html {
+	background-color: #2C2F33;
+	font-family: 'Segoe UI', Tahoma;
+	color: #99AAB5;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+	user-select: none;
+}
+
+::-webkit-scrollbar, ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+}
+::-webkit-progress-bar, ::-webkit-scrollbar-thumb {
+	background: #7289DA;
+}
+::-webkit-scrollbar {
+	background: #23272A;
+}
