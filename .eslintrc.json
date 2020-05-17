@@ -1,0 +1,43 @@
+{
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 2019
+    },
+    "rules": {
+        "no-var": "error", 
+        "no-lonely-if": "error",
+        "space-in-parens": "error",
+        "no-empty-function": "error",
+        "comma-spacing": "error",
+        "semi": "error",
+        "no-extra-semi": "error",
+        "yoda": "error",
+        "no-label-var": "error",
+        "prefer-const": "warn",
+        "no-unused-vars": "warn",
+        "no-sparse-arrays": "error",
+        "no-unreachable": "error",
+        "eqeqeq": 2,
+        "no-new": "error",
+        "no-multi-spaces": "error",
+        "camelcase": 2,
+        "comma-dangle": "error",
+        "indent": [
+            "warn",
+            "tab"
+        ],
+        "no-useless-escape": "error",
+        "semi-spacing": "error",
+        "no-dupe-args": "error",
+        "no-redeclare": "error",
+        "no-delete-var": "error",
+        "no-debugger": "error",
+        "no-alert": "error",
+        "no-duplicate-case": "error",
+        "no-unused-labels": "error",
+        "no-empty": "error"
+    }
+}

@@ -1,3 +1,4 @@
+console.log("This feature is for developers only. If someone told you to paste something in here to activate a \"hack\", they are a g spy.");
 // Update The H Count
 function updateHCount() {
 	document.getElementById("h-count").innerText = localStorage.clickCount;
@@ -55,7 +56,7 @@ addEventListener("load", function() { // when the window has loaded
 	document.getElementById("hehirth").onclick = rebirth;
 	// Get the reset button element and run the reset function on click
 	document.getElementById("reset").onclick = reset;
-	
+
 	// user has never played before (checks if the click count doesn't exist (undefined))
 	if(localStorage.clickCount === undefined) {
 		// set clickCount To 0
@@ -63,7 +64,7 @@ addEventListener("load", function() { // when the window has loaded
 		// alert no g
 		window.alert("Welcome to H Clicker. To beqin, click the H button, or press the H key. Do not press the forbidden letter.");
 	}// user has played before
-	 else { 
+	 else {
 		//  update h count
 		updateHCount();
 	}
