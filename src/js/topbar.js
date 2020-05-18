@@ -2,7 +2,7 @@ const remote = require('electron').remote;
 
 function windowManage(action) {
     let window = remote.getCurrentWindow();
-	case (action) {
+	switch (action) {
 	    case 1: window.minimize(); break;
        	case 2: if (!window.isMaximized()) return window.maximize();
        	window.unmaximize(); break;
