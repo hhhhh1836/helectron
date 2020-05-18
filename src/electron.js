@@ -10,8 +10,12 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1920,
 	height: 1080,
+	frame: false,
 	icon: `${__dirname}/icon.ico`,
 	title: 'H Clicker',
+	webPreferences: {
+      nodeIntegration: true
+    }
   });
   mainWindow.setMenuBarVisibility(false);
 

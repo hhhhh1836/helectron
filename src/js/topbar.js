@@ -1,6 +1,6 @@
 const remote = require('electron').remote;
 
-function windowManage(action) {
+function windowAction(action) {
     let window = remote.getCurrentWindow();
 	switch (action) {
 	    case 1: window.minimize(); break;

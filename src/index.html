@@ -2,21 +2,21 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/topbar.css">
-		<script src="js/topbar.js"></script>
 	</head>
 	<body>
 		<div class="titlebar">
 		<img src="icon.ico" height="20px" width="20px" style="vertical-align: middle; margin-left: 10px;"><p>H Clicker</p>
-		<button class="xbutton" onclick="windowManage(3);" id="close-btn">
+		<button class="xbutton" onclick="windowAction(3);" id="close-btn">
 		 ✕
 		</button>
-		<button class="maxbutton" onclick="windowManage(2);" id="max-btn">
+		<button class="maxbutton" onclick="windowAction(2);" id="max-btn">
 		 □
 		</button>
-		<button class="_button" onclick="windowManage(1);" id="min-btn">
+		<button class="_button" onclick="windowAction(1);" id="min-btn">
 		 –
 		</button>
 		</div>
 		<iframe src="game.html">
 	</body>
+	<script src="js/topbar.js"></script>
 </html>
