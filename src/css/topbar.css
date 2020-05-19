@@ -1,3 +1,7 @@
+html {
+	border-radius: 20px 20px 20px 20px;
+}
+
 body {
 	margin: 0;
 	cursor: default;
@@ -13,11 +17,11 @@ textarea:focus, input:focus, button:focus {
 
 .titlebar {
 	-webkit-app-region: drag;
-	background-color: rgba(20,20,20,1);
+	background-color: #23272A;
 	width: 100vw;
 }
 
-.titlebar p {
+p {
 	margin: 0;
 	color: white;
 	font-family: "Segoe UI";
@@ -29,8 +33,7 @@ textarea:focus, input:focus, button:focus {
 	padding-top: 5px;
 	vertical-align: middle;
 }
-
-.titlebar .xbutton {
+.xbutton {
 	background-color: transparent;
 	float: right;
 	color: white;
@@ -43,12 +46,8 @@ textarea:focus, input:focus, button:focus {
 	transition: all 0.1s ease;
 }
 
-.titlebar .xbutton:hover {
-	background-color: rgba(231, 76, 60,1.0);
-	vertical-align: middle;
-}
 
-.titlebar ._button, .titlebar .maxbutton {
+._button, .maxbutton {
 	background-color: transparent;
 	float: right;
 	color: white;
@@ -62,8 +61,8 @@ textarea:focus, input:focus, button:focus {
 	vertical-align: middle;
 }
 
-.titlebar ._button:hover, .titlebar .maxbutton:hover {
-	background-color: rgba(41, 128, 185,1.0);
+.titlebar ._button:hover, .titlebar .xbutton, .titlebar .maxbutton:hover {
+	background-color:#7289DA;
 }
 
 .titlebar ._button:active, .titlebar .xbutton:active, .titlebar .maxbutton:active {
