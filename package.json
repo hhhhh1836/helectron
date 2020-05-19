@@ -1,7 +1,7 @@
 {
   "name": "helectron",
   "productName": "H clicker",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "H clicker",
   "main": "src/electron.js",
   "scripts": {
@@ -45,6 +45,7 @@
     }
   },
   "dependencies": {
+    "discord-rpc": "^3.1.1",
     "electron-squirrel-startup": "^1.0.0",
     "eslint": "^7.0.0",
     "update-electron-app": "^1.5.0"
