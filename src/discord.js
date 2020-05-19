@@ -11,8 +11,8 @@ app.on('ready', () => {
 });
 
 setActivity({
-	details: `Clicker H ${clicks} time(s)`,
-	state: 'in slither party',
+	details: `Clicking H`,
+	state: `${clicks} times(s)`,
 	largeImageKey: 'clicker',
 	largeImageText: 'H?',
 	smallImageKey: 'framecon',
