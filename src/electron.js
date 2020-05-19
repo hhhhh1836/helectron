@@ -10,8 +10,12 @@ const createWindow = () => {
   const mainWindow = new BrowserWindow({
     width: 1920,
 	height: 1080,
+	frame: false,
 	icon: `${__dirname}/icon.ico`,
 	title: 'H Clicker',
+	webPreferences: {
+      nodeIntegration: true
+    }
   });
   mainWindow.setMenuBarVisibility(false);
 
@@ -31,11 +35,7 @@ app.on('ready', createWindow);
 
 // Quit when all windows are closed.
 app.on('window-all-closed', () => {
-  // On OS X it is common for applications and their menu bar
-  // to stay active until the user quits explicitly with Cmd + Q
-  if (process.platform !== 'darwin') {
     app.quit();
-  }
 });
 
 app.on('activate', () => {
