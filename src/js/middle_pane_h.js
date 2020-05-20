@@ -35,7 +35,7 @@ function reset() {
 }
 
 while(localStorage.clickCount === 9007199254740992) {
-	destriy();
+	destroy();
 }
 
 // Rebirth (relies on remove and confirmVar)
