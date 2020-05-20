@@ -1,5 +1,5 @@
 const { app, window, BrowserWindow } = require('electron');
-const { connect, Client, setActivity, destroy } = require('discord-rpc');
+// const { connect, Client, setActivity, destroy } = require('discord-rpc'); 
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
 if (require('electron-squirrel-startup')) { // eslint-disable-line global-require
@@ -50,9 +50,9 @@ app.on('activate', () => {
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and import them here.
 
-// create a new rpc client and track clicks
+/* // create a new rpc client and track clicks
 const RPC = new Client({ transport:'websocket'});
-const clicks = await(mainWindow.webContents.executeJavaScript('UpdateHCount'));
+const clicks = await mainWindow.webContents.executeJavaScript('UpdateHCount');
 
 // create id and scopes
 const id = '712355400866988054';
@@ -91,3 +91,4 @@ app.on('window-all-closed', () => {
 
 // login
 RPC.login({ id, scopes });
+*/
