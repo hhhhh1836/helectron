@@ -24,7 +24,7 @@ textarea:focus, input:focus, button:focus {
 p {
 	margin: 0;
 	color: white;
-	font-family: "Segoe UI";
+	font-family: 'Segoe UI', 'San Francisco';
 	font-weight: bolder;
 	display: inline-block;
 	font-size: 20px;
